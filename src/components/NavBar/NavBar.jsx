@@ -8,6 +8,9 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import logo from './assets/logo.ico'
+import { Link, NavLink } from "react-router-dom";
+import './NavBar.css'
+
 const imageWidth=30;
 const imageHeight=30;
 const tab01 = <>&nbsp;</>;
@@ -20,13 +23,16 @@ return(<nav>
     
     
     <Container>    
- 
+    <Link to='/'>
     <img src={logo}  width={imageWidth} height={imageHeight} alt="logo-dinosaurio" /> {tab04}
-    <Navbar.Brand href="#home">Jurassic Shop</Navbar.Brand>
+    <Navbar.Brand >Jurassic Shop</Navbar.Brand>
+    </Link>
+
+    
     <Nav className="me-auto">
-        <Button href="#tiranosaurios" variant="outline-warning">Tiranosaurios</Button>{' '}{tab01}
-        <Button href="#velociraptores" variant="outline-warning">Velociraptores</Button>{' '}{tab01}
-        <Button href="#triceratops" variant="outline-warning">Tricératops</Button>{' '}
+            <Button as={NavLink} to={`/category/carnivoros`} variant="outline-warning" className={({isActive}) => isActive? 'ActiveOption':'Option'}>Carnívoros</Button>{' '}{tab01}
+            <Button as={NavLink} to={`/category/herbivoros`} variant="outline-warning" className={({isActive}) => isActive? 'ActiveOption':'Option'}>Herbívoros</Button>{' '}{tab01}
+
      </Nav>
                                  
     <Form inline>
@@ -38,7 +44,8 @@ return(<nav>
           <InputGroup.Text id="basic-addon1">0</InputGroup.Text>
           </Col>
         </Row>
-    </Form></Container>      
+    </Form>
+    </Container>      
 
 </Navbar>
           

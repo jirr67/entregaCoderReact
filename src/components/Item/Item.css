@@ -1,0 +1,57 @@
+/* CardItem.module.css */
+
+.CardItem {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    overflow: hidden;
+    width: 250px; /* Ancho fijo para tarjeta compacta */
+    margin-left: 1%;
+  }
+  
+  .CardItem:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Header {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .ItemHeader {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .ItemImg {
+    width: 100%;
+    height: 150px; /* Altura fija para la imagen */
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .Info {
+    padding: 8px 12px;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .ItemFooter {
+    padding: 12px;
+    text-align: right;
+  }
+  
+  .Option {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .Option:hover {
+    text-decoration: underline;
+  }
+  
