@@ -5,7 +5,7 @@ const products = [
         price: 40000000,
         category: 'carnivoros', 
         img: 'https://www.lavanguardia.com/andro4all/hero/2023/12/dinosaurio-culpa-vejez.png?width=1200',
-        stock: 3,
+        stock: 4,
         description: 'Come gente mientras ésta está en el baño.'
     },
     {
