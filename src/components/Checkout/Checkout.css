@@ -1,0 +1,41 @@
+
+
+
+.checkout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.CardItemCheckout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid rgb(177, 199, 30);
+    width: 30%;
+    padding: 1%;
+}   
+
+.formularioCompleto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.HeaderCheckout{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagar{
+    border:1px solid rgb(177, 199, 30) !important;
+    background-color: rgb(177, 199, 30) !important;
+}
+
+.pagar:hover{
+    background-color: rgb(132, 149, 23) !important;
+}

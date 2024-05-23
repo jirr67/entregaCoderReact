@@ -32,8 +32,7 @@ return(<nav>
     <Nav className="me-auto">
             <Button as={NavLink} to={`/category/carnivoros`} variant="outline-warning" className={({isActive}) => isActive? 'ActiveOption':'Option'}>Carnívoros</Button>{' '}{tab01}
             <Button as={NavLink} to={`/category/herbivoros`} variant="outline-warning" className={({isActive}) => isActive? 'ActiveOption':'Option'}>Herbívoros</Button>{' '}{tab01}
-
-     </Nav>
+    </Nav>
                                  
     <Form inline>
         <Row>
@@ -41,7 +40,7 @@ return(<nav>
           <CartWidget/> 
           </Col>
           <Col xs="auto">
-          <InputGroup.Text id="basic-addon1">0</InputGroup.Text>
+      
           </Col>
         </Row>
     </Form>

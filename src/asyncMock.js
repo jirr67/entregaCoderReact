@@ -46,7 +46,6 @@ export const getProductById = (productId) =>{
 
 export const getProductsByCategory = (productCategory) =>{
     return new Promise((resolve)=>{
-        console.log("En la función Categorías: ",productCategory)
         setTimeout(() =>{
             resolve(products.filter(prod => prod.category === productCategory))
         },500)

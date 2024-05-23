@@ -1,0 +1,27 @@
+.carrito{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:2%;
+}
+
+
+.seccion{
+    font-size: 15px !important;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+
+.ItemFooter{
+    font-size: 15px !important;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2%;
+}
