@@ -40,7 +40,7 @@ const Checkout = () =>{
       
         <article className="CardItemCheckout">
                 <header className="HeaderCheckout">
-                    <p>Checkout idOperacion</p>
+                    <p>Checkout</p>
                 </header>
 
                 <Form className='formularioCompleto' onSubmit={handleSubmit}>
