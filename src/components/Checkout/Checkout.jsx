@@ -32,7 +32,6 @@ const Checkout = () =>{
         createOrder(order).then(id=>{
             setIdOperacion(id)
         })
-        console.log("pruebita",idOperacion);
     }
 
 
